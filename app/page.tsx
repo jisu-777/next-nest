@@ -1,5 +1,12 @@
-import Image from "next/image";
 import Link from "next/link";
+import { Metadata } from "next";
+
+// 메타데이터
+export const metadata: Metadata = {
+  title: "Next.js",
+  description: "Next.js 튜토리얼 배우기",
+}
+
 export default function Home() {
   return (
     <div >
